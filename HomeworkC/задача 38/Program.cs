@@ -29,7 +29,7 @@ Console.WriteLine($"[{string.Join(", ", array)}]");
 MAX(array);
 MIN(array);
 double result = Math.Round(MAX(array) - MIN(array),2);
-Console.WriteLine(MAX(array));
-Console.WriteLine(MIN(array));
-Console.WriteLine(result);
+// Console.WriteLine(MAX(array));
+// Console.WriteLine(MIN(array));
+Console.WriteLine($"{result}, {MAX(array)}, {MIN(array)}");
 
