@@ -25,7 +25,7 @@ void SumStolb(int[,] matrix)
     {
       sum = sum + matrix[i, j];
     }
-  Console.WriteLine($"{sum / matrix.GetLength(0)}");
+  Console.Write($"{sum / matrix.GetLength(0)}\t");
   }
 }
 Console.Clear();
